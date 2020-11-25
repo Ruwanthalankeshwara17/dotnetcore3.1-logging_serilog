@@ -7,9 +7,11 @@
 ## Quick Started
 
 1. Checkout the code.
-2. Open a cmd inside the folder where you cloned the code.
+2. Open a cmd inside 'logging' folder where you cloned the code.
 3. Run 'dotnet run --project ./logging.csproj' or 'dotnet run'
-4. Open a browser and type 'https://localhost:5000'
+4. cmd will display '[07:40:48 INF] Application Starting.'
+5. Type 'https://localhost:5000/weatherforecast' in the browser.
+6. Now there will be additional logs of infomation and exception in the cmd.
 
 ## Getting Started
 
@@ -25,7 +27,7 @@ First create a web api project. Then add Serilog.AspNetCore, Serilog.Enrichers.E
 
 ## Configure Serilog
 
-First configure serilog in Program.cs. In that the 'finally' block allows logger to log any pending messages while the application closes.
+First configure serilog in Program.cs. There the 'finally' block allows logger to log any pending messages while the application closes.
 
 ![configure-serilog](./images/configure-serilog.PNG)
 
