@@ -12,6 +12,7 @@
 4. cmd will display '[07:40:48 INF] Application Starting.'
 5. Type 'https://localhost:5000/weatherforecast' in the browser.
 6. Now there will be additional logs of infomation and exception in the cmd.
+7. Navigate to 'D:\Logs', find the log files written inside that
 
 ## Getting Started
 
